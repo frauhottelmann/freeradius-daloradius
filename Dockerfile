@@ -1,4 +1,4 @@
-FROM frauhottelmann/docker-freeradius-daloradius
+FROM frauhottelmann/docker-freeradius-daloradius:v1.1-1
 
 RUN sed -i '$ d' /cbs/init.sh
 RUN sh /cbs/init.sh
